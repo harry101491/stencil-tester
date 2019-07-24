@@ -10,6 +10,7 @@ import { HTMLStencilElement, JSXBase } from '@stencil/core/internal';
 
 export namespace Components {
   interface MyComponent {}
+  interface MyHighChart {}
 }
 
 declare global {
@@ -20,16 +21,25 @@ declare global {
     prototype: HTMLMyComponentElement;
     new (): HTMLMyComponentElement;
   };
+
+  interface HTMLMyHighChartElement extends Components.MyHighChart, HTMLStencilElement {}
+  var HTMLMyHighChartElement: {
+    prototype: HTMLMyHighChartElement;
+    new (): HTMLMyHighChartElement;
+  };
   interface HTMLElementTagNameMap {
     'my-component': HTMLMyComponentElement;
+    'my-high-chart': HTMLMyHighChartElement;
   }
 }
 
 declare namespace LocalJSX {
   interface MyComponent extends JSXBase.HTMLAttributes<HTMLMyComponentElement> {}
+  interface MyHighChart extends JSXBase.HTMLAttributes<HTMLMyHighChartElement> {}
 
   interface IntrinsicElements {
     'my-component': MyComponent;
+    'my-high-chart': MyHighChart;
   }
 }
 
