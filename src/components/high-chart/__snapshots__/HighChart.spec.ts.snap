@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`High Chart Test Suite Component should render 1`] = `
+HighChart {
+  "options": Object {
+    "chart": Object {
+      "type": "test",
+    },
+    "series": Array [
+      Object {
+        "data": Array [
+          1,
+          2,
+          1,
+          4,
+          3,
+          6,
+        ],
+        "name": "first-series",
+        "type": undefined,
+      },
+    ],
+    "title": Object {
+      "text": "My Test chart",
+    },
+  },
+}
+`;

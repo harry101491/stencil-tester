@@ -6,7 +6,7 @@ import HighCharts from 'highcharts';
   styleUrl: './HighChart.scss',
   tag: 'my-high-chart'
 })
-export class HighChartDemo {
+export class HighChart {
 
   @Element() el: HTMLElement;
 

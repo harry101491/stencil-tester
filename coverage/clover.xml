@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1563949063473" clover="3.2.0">
+  <project timestamp="1563949063474" name="All files">
+    <metrics statements="7" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1" elements="10" coveredelements="5" complexity="0" loc="7" ncloc="7" packages="1" files="1" classes="1"/>
+    <file name="HighChart.tsx" path="/Users/harshitpareek/Documents/react-app/stencil-starter/src/components/high-chart/HighChart.tsx">
+      <metrics statements="7" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="32" count="0" type="stmt"/>
+      <line num="43" count="0" type="stmt"/>
+      <line num="44" count="0" type="stmt"/>
+    </file>
+  </project>
+</coverage>
