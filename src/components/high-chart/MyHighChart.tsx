@@ -3,10 +3,10 @@ import HighCharts from 'highcharts';
 
 @Component({
   shadow: true,
-  styleUrl: './HighChart.scss',
+  styleUrl: './MyHighChart.scss',
   tag: 'my-high-chart'
 })
-export class HighChart {
+export class MyHighChart {
 
   @Element() el: HTMLElement;
 

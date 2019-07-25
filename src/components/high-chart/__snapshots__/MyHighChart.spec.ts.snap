@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`High Chart Test Suite Component should render 1`] = `
-HighChart {
+exports[`My High Chart Test Suite Component should render 1`] = `
+MyHighChart {
   "options": Object {
     "chart": Object {
       "type": "test",
