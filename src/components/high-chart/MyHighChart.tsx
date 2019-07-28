@@ -13,11 +13,20 @@ export class MyHighChart {
   chart: any;
 
   options: HighCharts.Options = {
-    chart: {
-      type: 'spline'
-    },
     title: {
-      text: 'My chart'
+      text: 'My Chart Title',
+    },
+    chart: {
+      type: 'spline',
+    },
+    subtitle: {
+      text: 'My Chart Subtitle',
+    },
+    tooltip: {
+      backgroundColor: '#FCFFC5',
+      borderColor: 'black',
+      borderRadius: 10,
+      borderWidth: 3
     },
     series: [
       {

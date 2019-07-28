@@ -1,5 +1,5 @@
 import { MyHighChart } from './MyHighChart';
-import { newSpecPage } from '@stencil/core/testing';
+// import { newSpecPage } from '@stencil/core/testing';
 
 describe('My High Chart Test Suite', () => {
   let currentComponent: MyHighChart;

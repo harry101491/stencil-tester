@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1564030952950" clover="3.2.0">
-  <project timestamp="1564030952950" name="All files">
-    <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3" elements="10" coveredelements="10" complexity="0" loc="7" ncloc="7" packages="1" files="1" classes="1"/>
+<coverage generated="1564032644830" clover="3.2.0">
+  <project timestamp="1564032644830" name="All files">
+    <metrics statements="7" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1" elements="10" coveredelements="5" complexity="0" loc="7" ncloc="7" packages="1" files="1" classes="1"/>
     <file name="MyHighChart.tsx" path="/Users/harshitpareek/Documents/react-app/stencil-starter/src/components/high-chart/MyHighChart.tsx">
-      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <metrics statements="7" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
       <line num="1" count="1" type="stmt"/>
       <line num="2" count="1" type="stmt"/>
       <line num="4" count="1" type="stmt"/>
-      <line num="15" count="2" type="stmt"/>
-      <line num="32" count="1" type="stmt"/>
-      <line num="43" count="1" type="stmt"/>
-      <line num="44" count="1" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="35" count="0" type="stmt"/>
+      <line num="46" count="0" type="stmt"/>
+      <line num="47" count="0" type="stmt"/>
     </file>
   </project>
 </coverage>
