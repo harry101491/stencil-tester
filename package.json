@@ -33,6 +33,7 @@
   "dependencies": {
     "ag-grid": "^18.1.2",
     "ag-grid-community": "^21.1.0",
+    "ag-grid-webcomponent": "^17.1.0",
     "highcharts": "^7.1.2"
   }
 }

@@ -1,5 +1,4 @@
 import { Component, h, Element } from '@stencil/core';
-import AgGrid from 'ag-grid';
 
 @Component({
   tag: 'my-component',
@@ -10,7 +9,7 @@ export class MyComponent {
 
   @Element() el: HTMLElement;
 
-  agGrid: HTMLElement;
+  agGrid: any;
 
   columnDefs: [
     {headerName: "Make", field: "make"},
@@ -27,25 +26,24 @@ export class MyComponent {
   gridOptions = {
     columnDefs: this.columnDefs,
     rowData: this.rowData,
-    onGridReady: function () {
-        this.gridOptions.api.sizeColumnsToFit();
+    onGridReady: function (params) {
+      console.log('Inside onGridReady', params);
     }
   };
 
   render() {
     return (
-      <div
-        id="myGrid"
-        style={{height: '200px', width: '200px'}}
-        class='ag-theme-balham"'
+      <ag-grid
+        ref={(el) => this.agGrid = el}
+        style={{ width: '200px', height: '200px'}}
       >
 
-      </div>
+      </ag-grid>
     );
   }
 
   componentDidLoad() {
-    this.agGrid = this.el.shadowRoot.querySelector('#myGrid');
-    new AgGrid.Grid(this.agGrid, this.gridOptions);
+    console.log('The value of agGrid is: ', this.agGrid);
+    this.agGrid.gridOptions = this.gridOptions;
   }
 }
